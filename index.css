@@ -1,3 +1,92 @@
 body {
     font-family: Arial;
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h1, h2 {
+    color: #075985;
+}
+
+h3, h4, h5, h6 {
+    color: #4b5563;
+}
+
+p, ul {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+a {
+    text-decoration-line: none;
+    color:#4b5563;
+}
+
+a:hover {
+    color: #075985;
+}
+
+.work-experience-info {
+    margin-left: 0px;
+    padding-left: 0px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.work-experience-info li {
+    padding-left: 0px;
+    padding-right: 8px;
+}
+
+.work-experience-info li span:nth-child(1) {
+    color:#075985;
+    font-style: bold;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.work-experience-info li span:nth-child(2) {
+    color: #4b5563;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.projects-tech-used li span:nth-child(1) {
+    color:#075985;
+    font-style: bold;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+th {
+    text-align: left;
+}
+
+td {
+    vertical-align: top;
+}
+
+th:nth-child(1) {
+    width: 160px;
+}
+
+table h4 {
+    margin-top: 0px !important;
 }
