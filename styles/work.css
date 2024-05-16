@@ -1,0 +1,30 @@
+/*Section: Work Experience*/
+#experience div {
+    margin-bottom: 24px;
+}
+
+.work-experience-info {
+    margin-left: 0px;
+    padding-left: 0px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.work-experience-info li {
+    padding-left: 0px;
+    padding-right: 8px;
+}
+
+.work-experience-info li span:nth-child(1) {
+    color:#075985;
+    font-style: bold;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.work-experience-info li span:nth-child(2) {
+    color: #4b5563;
+    font-style: italic;
+    font-size: 16px;
+}

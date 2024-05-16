@@ -1,0 +1,30 @@
+/*Section: Education*/
+table {
+    border-collapse: collapse;
+}
+
+table h4 {
+    margin-top: 0px !important;
+}
+
+th {
+    text-align: left;
+}
+
+td {
+    vertical-align: top;
+}
+
+th:nth-child(1) {
+    width: 160px;
+}
+
+tr:nth-child(even) {
+  background-color: #f9fafb;
+}
+
+td {
+border: 1px solid black;
+  border-radius: 10px;
+  border-color: #e0f2fe;
+}

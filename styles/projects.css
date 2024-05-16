@@ -1,0 +1,85 @@
+#projects .projects-container li {
+    display: flex;
+    flex-direction: row;
+}
+
+#projects .projects-container li .projects-info {
+    flex-basis: 60%;
+    font-size: 15px;
+}
+
+.project-links li span {
+    margin: 0 0;
+    font-style: bold;
+    font-weight: 600;
+    width: 200px;
+}
+
+.project-tech-used li span {
+    margin: 0 0;
+    color:#075985;
+    font-style: bold;
+    font-weight: 600;
+    width: 200px;
+}
+
+#projects .projects-container li .projects-img {
+    flex-basis: 40%;
+    max-height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    place-content: center;
+}
+
+#projects .projects-container li .projects-img img {
+    height: 240px;
+    width: 300px;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 10px auto;
+    place-self: center;
+}
+
+@media (min-width: 1200px) and (max-width: 1529px){
+    #projects .projects-container li .projects-img {
+        display: flex;
+        flex-direction: column;
+        place-content: center;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    #projects .projects-container li .projects-img {
+        display: flex;
+        flex-direction: column;
+        place-content: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #projects .projects-container li {
+        display: flex;
+        flex-direction: column;
+        place-content: center;
+    }
+    #projects .projects-container li .projects-img {
+        display: flex;
+        flex-direction: column;
+        place-content: center;
+    }
+}
+
+@media (max-width: 767px) {
+    #projects .projects-container li {
+        display: flex;
+        flex-direction: column;
+        place-content: center;
+    }
+
+    #projects .projects-container li .projects-img {
+        display: flex;
+        flex-direction: column;
+        place-content: center;
+    }
+}
