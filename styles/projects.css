@@ -13,6 +13,17 @@
     flex-direction: row;
 }
 
+.projects-container li div ul li {
+    margin: 0 0;
+}
+
+.projects-container li div ul li span {
+    margin: 0 0;
+    font-style: bold;
+    font-weight: 600;
+    width: 200px;
+}
+
 #projects .projects-container li .projects-info {
     flex-basis: 60%;
     font-size: 15px;
@@ -22,19 +33,8 @@
     text-decoration: underline;
 }
 
-.project-links li span {
-    margin: 0 0;
-    font-style: bold;
-    font-weight: 600;
-    width: 200px;
-}
-
 .project-tech-used li span {
-    margin: 0 0;
     color:#075985;
-    font-style: bold;
-    font-weight: 600;
-    width: 200px;
 }
 
 #projects .projects-container li .projects-img {
@@ -72,12 +72,12 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-    #projects .projects-container li {
+    #projects .projects-container > li {
         display: flex;
         flex-direction: column;
         place-content: center;
     }
-    #projects .projects-container li .projects-img {
+    #projects .projects-container > li .projects-img {
         display: flex;
         flex-direction: column;
         place-content: center;
@@ -91,9 +91,27 @@
         place-content: center;
     }
 
-    #projects .projects-container li .projects-img {
+    #projects .projects-container > li .projects-img {
         display: flex;
         flex-direction: column;
         place-content: center;
     }
+
+    #projects .projects-container li .projects-info {
+        font-size: 14px;
+    }
+    
+    .projects-container li div ul li span {
+        width: 200px;
+    }
+
+    .project-links li span {
+        height: 0px;
+        width: 200px;
+    }
+
+    .projects-container li div ul li {
+        margin: 10px 0;
+    }
+
 }
