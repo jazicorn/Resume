@@ -42,7 +42,7 @@ border: 1px solid black;
 		left: -9999px;
 	}
 
-    tr { border: 1px solid #ccc; }
+    tr { border: 1px solid #e0f2fe; }
 	
 	td { 
 		/* Behave  like a "row" */
@@ -50,7 +50,7 @@ border: 1px solid black;
 		border-bottom: 1px solid #eee; 
 		position: relative;
 		padding-left: 50%;
-        min-height: 30px;
+
 	}
 	
     /*
@@ -67,6 +67,7 @@ border: 1px solid black;
 		white-space: nowrap;
         font-weight: bold;
         font-size: 16px;
+        min-height: 30px;
 	}
     /*
 	Data Label

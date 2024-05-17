@@ -1,3 +1,13 @@
+#projects .projects-container ul {
+    margin: 20px auto;
+}
+
+#projects .projects-container hr {
+    margin: 10px auto;
+    width: 50%;
+    border: 1px dashed #eee;
+}
+
 #projects .projects-container li {
     display: flex;
     flex-direction: row;
@@ -6,6 +16,10 @@
 #projects .projects-container li .projects-info {
     flex-basis: 60%;
     font-size: 15px;
+}
+
+#projects .projects-container li .projects-info h3 {
+    text-decoration: underline;
 }
 
 .project-links li span {

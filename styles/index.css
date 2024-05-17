@@ -6,8 +6,17 @@
 
 @font-face {
   font-family: Roboto;
-  src: url(./Roboto/Roboto-Regular.ttf);
+  src: url(./font/Roboto-Regular.ttf);
 }
+
+/*
+Colors:
+#111827 | Deep Gray;
+#4b5563 | Dark Gray;
+#f9fafb | Light Gray;
+#075985 | Dark Blue;
+#e0f2fe | Light Blue;
+*/
 
 body {
     font-family: Roboto;
